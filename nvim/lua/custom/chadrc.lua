@@ -1,7 +1,14 @@
 ---@type ChadrcConfig
 local M = {}
 
-M.ui = { theme = 'catppuccin' }
+M.ui = { 
+    theme = 'catppuccin',
+    statusline = {
+        theme = "minimal",
+        separator_style = "round",
+        overriden_modules = nil,
+    },
+}
 M.plugins = "custom.plugins"
 vim.g.transparency = true
 
