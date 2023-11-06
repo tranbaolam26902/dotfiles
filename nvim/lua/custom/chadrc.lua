@@ -3,5 +3,6 @@ local M = {}
 
 M.ui = { theme = 'catppuccin' }
 M.plugins = "custom.plugins"
+vim.g.transparency = true
 
 return M
