@@ -1,10 +1,10 @@
 ---@type ChadrcConfig
 local M = {}
 
-M.ui = { 
+M.ui = {
     theme = 'catppuccin',
     statusline = {
-        theme = "minimal",
+        theme = "default",
         separator_style = "round",
         overriden_modules = nil,
     },
