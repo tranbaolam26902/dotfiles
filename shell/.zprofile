@@ -1,5 +1,6 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(oh-my-posh init zsh --config /Users/campbells/.config/shell/themes/violet.omp.json)"
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export PATH="$PATH:/Users/campbells/.dotnet/tools"
 alias ll='ls -l'
 alias la='ls -a'
