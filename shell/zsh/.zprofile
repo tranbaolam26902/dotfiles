@@ -18,8 +18,6 @@ alias gpm='git push origin master'
 alias gplm='git pull origin master'
 alias gplc='git pull origin campbells'
 
-clear
-
 # Load variables
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
