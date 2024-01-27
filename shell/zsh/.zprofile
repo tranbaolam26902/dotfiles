@@ -4,12 +4,14 @@ eval "$(oh-my-posh init zsh --config /Users/campbells/.config/shell/themes/viole
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export PATH="$PATH:/Users/campbells/.dotnet/tools"
 
-# Directory
+# Highlight directories
+export CLICOLOR=1
+export LSCOLOR=gxfxcxdxbxegedabagacad
+
+# Aliases
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
-
-# Git
 alias gs='git status'
 alias gaa='git add .'
 alias gp='git push'
