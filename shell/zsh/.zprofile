@@ -13,12 +13,26 @@ alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias gs='git status'
+alias gd='git diff'
 alias gaa='git add .'
+function gcm() {
+    if [ -n "$1" ]
+    then
+        git commit -m "$1"
+    fi
+}
 alias gp='git push'
-alias gpc='git push origin campbells'
 alias gpm='git push origin master'
+alias gpc='git push origin campbells'
 alias gplm='git pull origin master'
 alias gplc='git pull origin campbells'
+alias gra='git restore .'
+function dnr() {
+    if [ -n "$1" ]
+        then
+            dotnet run --urls=https://localhost:"$1"
+        fi
+}
 
 # Load variables
 export NVM_DIR="$HOME/.nvm"
