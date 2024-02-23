@@ -27,6 +27,9 @@ alias gpc='git push origin campbells'
 alias gplm='git pull origin master'
 alias gplc='git pull origin campbells'
 alias gra='git restore .'
+
+alias dnb='dotnet build'
+alias dndb='dotnet-ef Database Update'
 function dnr() {
     if [ -n "$1" ]
         then
