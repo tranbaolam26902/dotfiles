@@ -24,6 +24,7 @@ function gcm() {
 alias gp='git push'
 alias gpm='git push origin master'
 alias gpc='git push origin campbells'
+aliaa gpl='git pull'
 alias gplm='git pull origin master'
 alias gplc='git pull origin campbells'
 alias gra='git restore .'
