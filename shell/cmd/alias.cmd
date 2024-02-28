@@ -12,8 +12,8 @@ doskey gp=git push
 doskey gpc=git push -u origin campbells
 doskey gpm=git push -u origin master
 doskey gpl=git pull
+doskey gplc=git pull origin campbells
 doskey gplm=git pull origin master
-doskey gplm=git pull origin campbells
 doskey gra=git restore .
 
 doskey dndb=dotnet-ef Database Update
