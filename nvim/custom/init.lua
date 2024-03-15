@@ -27,6 +27,9 @@ vim.opt.wrap = true
 vim.opt.backspace = 'start,eol,indent'
 vim.opt.path:append { '**' } -- Finding files - Search down into subfolders
 vim.opt.wildignore:append { '*/node_modules/*' }
+vim.opt.foldmethod = "expr"
+vim.opt.foldlevelstart = 99
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
 vim.api.nvim_create_autocmd('InsertLeave', {
     pattern = '*',
