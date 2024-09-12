@@ -1,21 +1,20 @@
-# p10k
+# load powerlevel10k
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
+[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
 
-# Packages
-eval "$(/opt/homebrew/bin/brew shellenv)"
-eval "$(thefuck --alias)"
-export PATH="$PATH:/Users/campbells/.dotnet/tools"
+# load packages
+eval "$(/opt/homebrew/bin/brew shellenv)" # homebrew
+eval "$(thefuck --alias)" # thefuck
 
-# Highlight directories
+# highlight directories
 export CLICOLOR=1
 export LSCOLOR=gxfxcxdxbxegedabagacad
 
-# Aliases
+# aliases
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
@@ -45,7 +44,7 @@ function dnr() {
         fi
 }
 
-# Load variables
+# load variables
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
