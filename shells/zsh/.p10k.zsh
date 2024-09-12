@@ -31,12 +31,15 @@
 
   # The list of segments shown on the left. Fill it with the most important segments.
   typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
+    # =========================[ Line #1 ]=========================
     os_icon                 # os identifier
     dir                     # current directory
     vcs                     # git status
     node_version            # node.js version
-    dotnet_version        # .NET version (https://dotnet.microsoft.com)
+    dotnet_version          # .NET version (https://dotnet.microsoft.com)
     status                  # exit code of the last command
+    # =========================[ Line #2 ]=========================
+    newline                 # \n
     # prompt_char           # prompt symbol
   )
 
@@ -45,6 +48,7 @@
   # automatically hidden when the input line reaches it. Right prompt above the
   # last prompt line gets hidden if it would overlap with left prompt.
   typeset -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
+    # =========================[ Line #1 ]=========================
     # status                # exit code of the last command
     command_execution_time  # duration of the last command
     background_jobs         # presence of background jobs
@@ -107,6 +111,8 @@
     per_directory_history   # Oh My Zsh per-directory-history local/global indicator
     # cpu_arch              # CPU architecture
     # time                  # current time
+    # =========================[ Line #2 ]=========================
+    newline                 # \n
     # ip                    # ip address and bandwidth usage for a specified network interface
     # public_ip             # public IP address
     # proxy                 # system-wide http/https/ftp proxy
@@ -143,9 +149,9 @@
   typeset -g POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX='%242F├─'
   typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX='%242F╰─'
   # Connect right prompt lines with these symbols.
-  typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_SUFFIX='%242F─╮'
-  typeset -g POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_SUFFIX='%242F─┤'
-  typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_SUFFIX='%242F─╯'
+  typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_SUFFIX=''
+  typeset -g POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_SUFFIX=''
+  typeset -g POWERLEVEL9K_MULTILINE_LAST_PROMPT_SUFFIX=''
 
   # Filler between left and right prompt on the first prompt line. You can set it to ' ', '·' or
   # '─'. The last two make it easier to see the alignment between left and right prompt and to
