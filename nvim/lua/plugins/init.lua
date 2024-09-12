@@ -2,35 +2,14 @@ return {
     {
         'stevearc/conform.nvim',
         event = 'BufWritePre', -- format on save
-        config = function()
-            require 'configs.conform'
-        end,
+        opts = require 'configs.conform',
     },
 
     {
         'neovim/nvim-lspconfig',
         config = function()
-            require('nvchad.configs.lspconfig').defaults()
             require 'configs.lspconfig'
         end,
-    },
-
-    {
-        'williamboman/mason.nvim',
-        opts = {
-            ensure_installed = {
-                'lua-language-server',
-                'stylua',
-                'html-lsp',
-                'css-lsp',
-                'astro-language-server',
-                'typescript-language-server',
-                'tailwindcss-language-server',
-                'eslint-lsp',
-                'prettier',
-                'prettierd',
-            },
-        },
     },
 
     {
@@ -40,7 +19,6 @@ return {
                 'lua',
                 'vim',
                 'vimdoc',
-                'astro',
                 'html',
                 'css',
                 'javascript',

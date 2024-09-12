@@ -1,8 +1,8 @@
 local options = {
     formatters_by_ft = {
         lua = { 'stylua' },
-        css = { 'prettierd' },
         html = { 'prettierd' },
+        css = { 'prettierd' },
         javascript = { 'prettierd' },
         javascriptreact = { 'prettierd' },
     },
@@ -13,4 +13,4 @@ local options = {
     },
 }
 
-require('conform').setup(options)
+return options
