@@ -2,7 +2,7 @@ require('nvchad.configs.lspconfig').defaults()
 
 local lspconfig = require 'lspconfig'
 
-local servers = { 'html', 'cssls', 'ts_ls', 'eslint', 'tailwindcss' }
+local servers = { 'html', 'ts_ls', 'eslint', 'tailwindcss' }
 local nvlsp = require 'nvchad.configs.lspconfig'
 
 -- lsps with default config
@@ -13,3 +13,21 @@ for _, lsp in ipairs(servers) do
         capabilities = nvlsp.capabilities,
     }
 end
+
+-- disable warning: unkown at rule @tailwind
+lspconfig.cssls.setup {
+    on_attach = nvlsp.on_attach,
+    capabilities = nvlsp.capabilities,
+    settings = {
+        css = {
+            lint = {
+                unknownAtRules = 'ignore',
+            },
+        },
+        scss = {
+            lint = {
+                unknownAtRules = 'ignore',
+            },
+        },
+    },
+}
