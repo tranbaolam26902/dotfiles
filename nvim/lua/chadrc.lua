@@ -36,6 +36,7 @@ M.mason = {
     pkgs = {
         'css-lsp',
         'eslint-lsp',
+        'eslint_d',
         'html-lsp',
         'lua-language-server',
         'prettier',
