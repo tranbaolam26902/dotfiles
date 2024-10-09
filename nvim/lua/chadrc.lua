@@ -4,6 +4,17 @@ local M = {}
 M.base46 = {
     theme = 'catppuccin',
     transparency = true,
+    hl_override = {
+        CursorLine = { bg = '#252434' },
+        LineNr = { fg = '#888888' },
+        Comment = { fg = '#888888', italic = true },
+        ['@comment'] = { link = 'Comment' },
+        WinSeparator = { fg = '#ffffff' },
+        TelescopeBorder = { fg = '#ffffff' },
+        TelescopePromptBorder = { fg = '#ffffff' },
+        NvimTreeWinSeparator = { fg = '#ffffff' },
+        NvimTreeCursorLine = { bg = '#252434' },
+    },
 }
 
 M.ui = {
@@ -11,7 +22,7 @@ M.ui = {
         theme = 'default', -- default/vscode/vscode_colored/minimal
         -- default/round/block/arrow separators work only for default statusline theme
         -- round and block will work for minimal theme only
-        separator_style = 'round',
+        separator_style = 'default',
         order = nil,
         modules = nil,
     },
@@ -24,11 +35,11 @@ M.term = {
     sizes = { sp = 0.3, vsp = 0.4, ['bo sp'] = 0.3, ['bo vsp'] = 0.2 },
     float = {
         relative = 'editor',
-        row = 0.25,
-        col = 0.25,
-        width = 0.5,
-        height = 0.4,
-        border = 'single',
+        row = 0.20,
+        col = 0.20,
+        width = 0.6,
+        height = 0.5,
+        border = 'double',
     },
 }
 
@@ -47,4 +58,5 @@ M.mason = {
         'typescript-language-server',
     },
 }
+
 return M

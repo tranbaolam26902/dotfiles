@@ -15,6 +15,4 @@ vim.opt.fillchars = { fold = ' ' }
 vim.opt.foldmethod = 'indent'
 vim.opt.foldenable = false
 vim.opt.foldlevel = 99
-vim.api.nvim_set_hl(0, 'Comment', { fg = '#888888' })
-vim.api.nvim_set_hl(0, '@comment', { link = 'Comment' })
 vim.cmd [[autocmd FileType * set formatoptions-=ro]] -- disable auto comment in new lines
