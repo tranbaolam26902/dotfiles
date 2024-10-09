@@ -39,7 +39,7 @@ M.term = {
         col = 0.20,
         width = 0.6,
         height = 0.5,
-        border = 'double',
+        border = 'rounded',
     },
 }
 
