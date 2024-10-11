@@ -5,6 +5,7 @@ M.base46 = {
     theme = 'catppuccin',
     transparency = true,
     hl_override = {
+        Visual = { bg = '#0b192c' },
         CursorLine = { bg = '#252434' },
         LineNr = { fg = '#888888' },
         Comment = { fg = '#888888', italic = true },
