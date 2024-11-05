@@ -8,5 +8,9 @@
   "translucency": false,
   "showViewHeader": true,
   "nativeMenus": true,
-  "interfaceFontFamily": "Futura"
+  "interfaceFontFamily": "Futura",
+  "enabledCssSnippets": [
+    "campbells",
+    "global"
+  ]
 }

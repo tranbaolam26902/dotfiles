@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "6e13191c01c07a6c",
+            "id": "b998b55060a6ade3",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -118,8 +118,7 @@
               "title": "4th week (25th - 1st)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,11 +183,28 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6e13191c01c07a6c",
+  "active": "3e0701b51a0976b3",
   "lastOpenFiles": [
+    "News title.md",
     "00. Dashboard/🏠 Home.md",
     "01. Weekly planner/2024/November/1st week (4th - 10th).md",
     "01. Weekly planner/2024/November/2nd week (11th - 17th).md",
+    "Blog/Projects/1. Regional Education System/Regional Education System.md",
+    "Blog/Projects/1. Regional Education System/1.png",
+    "Blog/Projects/1. Regional Education System",
+    "Pasted image 20241105212531.png",
+    "Blog/Projects/1. Regional Education System/8.png",
+    "Blog/Projects/1. Regional Education System/7.png",
+    "Blog/Projects/1. Regional Education System/6.png",
+    "Blog/Projects/1. Regional Education System/5.png",
+    "Blog/Projects/1. Regional Education System/4.png",
+    "Blog/Projects/1. Regional Education System/3.png",
+    "Blog/Projects/1. Regional Education System/2.png",
+    "Blog/Posts/My NeoVim setup in 2024.md",
+    "Blog/Projects",
+    "Blog/Uses",
+    "Blog/Posts",
+    "Blog",
     "01. Weekly planner/2024/November/3rd week (18th - 24th).md",
     "01. Weekly planner/2024/November/4th week (25th - 1st).md",
     "02. Front-end development/Things to learn.md",
@@ -206,7 +222,6 @@
     "01. Weekly planner/2024",
     "01. Weekly planner",
     "trying obsidian.md",
-    "00. Dashboard",
     "Entertainment/Movies.md",
     "02. Front-end development/Tips & Tricks.md",
     "02. Front-end development/Libraries & Frameworks/Next.js.md",
@@ -216,13 +231,6 @@
     "Front-end development/Languages/Index.md",
     "02. Front-end development/Notes.md",
     "02. Front-end development/Libraries & Frameworks/Angular.md",
-    "02. Front-end development/Libraries & Frameworks/React.md",
-    "Entertainment",
-    "Untitled.md",
-    "Untitled 1.md",
-    "02. Front-end development/Languages",
-    "Front-end development/Languages.md",
-    "02. Front-end development/Libraries & Frameworks",
-    "interview"
+    "02. Front-end development/Libraries & Frameworks/React.md"
   ]
 }
