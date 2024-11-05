@@ -1,0 +1,17 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":chart_with_upwards_trend:",
+    ":four_leaf_clover:",
+    ":video_game:",
+    ":computer:",
+    ":spiral_calendar:",
+    ":calendar:",
+    ":movie_camera:",
+    ":atom_symbol:",
+    ":notebook_with_decorative_cover:"
+  ]
+}

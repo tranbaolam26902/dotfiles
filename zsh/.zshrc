@@ -43,6 +43,7 @@ function dnr() {
             dotnet run --urls=https://localhost:"$1"
         fi
 }
+alias sync_obsidian='cp -R ~/Documents/"Obsidian Vault"/campbells/.obsidian ~/.config/'
 
 # load variables
 export NVM_DIR="$HOME/.nvm"

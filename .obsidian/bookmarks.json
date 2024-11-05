@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1730797955027,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1730797955027,
+          "path": "🏠 Home.md",
+          "subpath": "#^-"
+        },
+        {
+          "type": "group",
+          "ctime": 1730797957296,
+          "items": [],
+          "title": "Front-end development"
+        },
+        {
+          "type": "group",
+          "ctime": 1730797957296,
+          "items": [],
+          "title": "Entertainment"
+        }
+      ],
+      "title": "sortspec"
+    }
+  ]
+}

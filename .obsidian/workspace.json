@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "049526d1ea1e170d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d4275fbf6157b7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbac88e9fecc551f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. Dashboard/🏠 Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🏠 Home"
+            }
+          },
+          {
+            "id": "7c3a62aa92cca87b",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "02. Weekly planner/2024/November/1st week (4th - 10th).md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "1st week (4th - 10th)"
+            }
+          },
+          {
+            "id": "868086594cd952f4",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "02. Weekly planner/2024/November/2nd week (11th - 17th).md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "2nd week (11th - 17th)"
+            }
+          },
+          {
+            "id": "ebc9757f96a82230",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "02. Weekly planner/2024/November/3rd week (18th - 24th).md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "3rd week (18th - 24th)"
+            }
+          },
+          {
+            "id": "7a9dfcc9ca4c9013",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "02. Weekly planner/2024/November/4th week (25th - 1st).md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "4th week (25th - 1st)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38b8d66056a0314b",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc4df3b7992fca1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75253c60a2865d4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dfa83518ec05b5d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "43148b3c45cd0f9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d5d9cd17e10e8be",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "2e95dd242367cce4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": false,
+      "homepage:Open homepage": false,
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "fbac88e9fecc551f",
+  "lastOpenFiles": [
+    "02. Weekly planner/2024/November/1st week (4th - 10th).md",
+    "01. Dashboard/🏠 Home.md",
+    "02. Weekly planner/2024/November/3rd week (18th - 24th).md",
+    "02. Weekly planner/2024/November/2nd week (11th - 17th).md",
+    "02. Weekly planner/2024/November/4th week (25th - 1st).md",
+    "03. Front-end development/Things to learn.md",
+    "02. Weekly planner/2024/November/Notes/Setup obsidian.md",
+    "02. Weekly planner/2024/November/4th - 10th.md",
+    "21-11-2024.md",
+    "03. Daily Notes",
+    "02. Weekly planner/2024/November/11th - 17th.md",
+    "dfgsdfgdfsg.md",
+    "02. Weekly planner/2024/November/dfgsdfgdfsg.md",
+    "02. Weekly planner/2024/November/Notes",
+    "Untitled Kanban.md",
+    "02. Weekly planner/2024/November/Untitled.canvas",
+    "02. Weekly planner/2024/November",
+    "02. Weekly planner/2024",
+    "02. Weekly planner",
+    "trying obsidian.md",
+    "01. Dashboard",
+    "Entertainment/Movies.md",
+    "03. Front-end development/Tips & Tricks.md",
+    "03. Front-end development/Libraries & Frameworks/Next.js.md",
+    "03. Front-end development/Languages/TypeScript.md",
+    "03. Front-end development/Languages/JavaScript.md",
+    "Untitled.canvas",
+    "Front-end development/Languages/Index.md",
+    "03. Front-end development/Notes.md",
+    "03. Front-end development/Libraries & Frameworks/Angular.md",
+    "03. Front-end development/Libraries & Frameworks/React.md",
+    "Entertainment",
+    "Untitled.md",
+    "Untitled 1.md",
+    "03. Front-end development/Languages",
+    "Front-end development/Languages.md",
+    "03. Front-end development/Libraries & Frameworks",
+    "interview"
+  ]
+}
