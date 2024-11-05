@@ -4,33 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "3d4275fbf6157b7f",
+        "id": "5caaba27e9080bd9",
         "type": "tabs",
         "children": [
           {
-            "id": "fbac88e9fecc551f",
+            "id": "3e0701b51a0976b3",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Dashboard/🏠 Home.md",
+                "file": "00. Dashboard/🏠 Home.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "🏠 Home"
             }
           },
           {
-            "id": "7c3a62aa92cca87b",
+            "id": "6e13191c01c07a6c",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "02. Weekly planner/2024/November/1st week (4th - 10th).md",
+                "file": "01. Weekly planner/2024/November/1st week (4th - 10th).md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
@@ -49,12 +47,12 @@
             }
           },
           {
-            "id": "868086594cd952f4",
+            "id": "6cb65918f93b4beb",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "02. Weekly planner/2024/November/2nd week (11th - 17th).md",
+                "file": "01. Weekly planner/2024/November/2nd week (11th - 17th).md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
@@ -73,12 +71,12 @@
             }
           },
           {
-            "id": "ebc9757f96a82230",
+            "id": "6bbb3dd56d6ba6f7",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "02. Weekly planner/2024/November/3rd week (18th - 24th).md",
+                "file": "01. Weekly planner/2024/November/3rd week (18th - 24th).md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
@@ -97,12 +95,12 @@
             }
           },
           {
-            "id": "7a9dfcc9ca4c9013",
+            "id": "63a8195e229de015",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "02. Weekly planner/2024/November/4th week (25th - 1st).md",
+                "file": "01. Weekly planner/2024/November/4th week (25th - 1st).md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
@@ -120,7 +118,8 @@
               "title": "4th week (25th - 1st)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,19 +167,6 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "2e95dd242367cce4",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
           }
         ]
       }
@@ -198,14 +184,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "fbac88e9fecc551f",
+  "active": "6e13191c01c07a6c",
   "lastOpenFiles": [
-    "02. Weekly planner/2024/November/1st week (4th - 10th).md",
-    "01. Dashboard/🏠 Home.md",
-    "02. Weekly planner/2024/November/3rd week (18th - 24th).md",
-    "02. Weekly planner/2024/November/2nd week (11th - 17th).md",
-    "02. Weekly planner/2024/November/4th week (25th - 1st).md",
-    "03. Front-end development/Things to learn.md",
+    "00. Dashboard/🏠 Home.md",
+    "01. Weekly planner/2024/November/1st week (4th - 10th).md",
+    "01. Weekly planner/2024/November/2nd week (11th - 17th).md",
+    "01. Weekly planner/2024/November/3rd week (18th - 24th).md",
+    "01. Weekly planner/2024/November/4th week (25th - 1st).md",
+    "02. Front-end development/Things to learn.md",
     "02. Weekly planner/2024/November/Notes/Setup obsidian.md",
     "02. Weekly planner/2024/November/4th - 10th.md",
     "21-11-2024.md",
@@ -213,30 +199,30 @@
     "02. Weekly planner/2024/November/11th - 17th.md",
     "dfgsdfgdfsg.md",
     "02. Weekly planner/2024/November/dfgsdfgdfsg.md",
-    "02. Weekly planner/2024/November/Notes",
+    "01. Weekly planner/2024/November/Notes",
     "Untitled Kanban.md",
     "02. Weekly planner/2024/November/Untitled.canvas",
-    "02. Weekly planner/2024/November",
-    "02. Weekly planner/2024",
-    "02. Weekly planner",
+    "01. Weekly planner/2024/November",
+    "01. Weekly planner/2024",
+    "01. Weekly planner",
     "trying obsidian.md",
-    "01. Dashboard",
+    "00. Dashboard",
     "Entertainment/Movies.md",
-    "03. Front-end development/Tips & Tricks.md",
-    "03. Front-end development/Libraries & Frameworks/Next.js.md",
-    "03. Front-end development/Languages/TypeScript.md",
-    "03. Front-end development/Languages/JavaScript.md",
+    "02. Front-end development/Tips & Tricks.md",
+    "02. Front-end development/Libraries & Frameworks/Next.js.md",
+    "02. Front-end development/Languages/TypeScript.md",
+    "02. Front-end development/Languages/JavaScript.md",
     "Untitled.canvas",
     "Front-end development/Languages/Index.md",
-    "03. Front-end development/Notes.md",
-    "03. Front-end development/Libraries & Frameworks/Angular.md",
-    "03. Front-end development/Libraries & Frameworks/React.md",
+    "02. Front-end development/Notes.md",
+    "02. Front-end development/Libraries & Frameworks/Angular.md",
+    "02. Front-end development/Libraries & Frameworks/React.md",
     "Entertainment",
     "Untitled.md",
     "Untitled 1.md",
-    "03. Front-end development/Languages",
+    "02. Front-end development/Languages",
     "Front-end development/Languages.md",
-    "03. Front-end development/Libraries & Frameworks",
+    "02. Front-end development/Libraries & Frameworks",
     "interview"
   ]
 }
