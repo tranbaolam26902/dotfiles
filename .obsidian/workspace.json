@@ -8,8 +8,9 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3e0701b51a0976b3",
+            "id": "b998b55060a6ade3",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -18,12 +19,13 @@
                 "backlinks": false,
                 "source": true
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "🏠 Home"
             }
           },
           {
-            "id": "b998b55060a6ade3",
+            "id": "a455d038ce97ce85",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -47,7 +49,7 @@
             }
           },
           {
-            "id": "6cb65918f93b4beb",
+            "id": "0ce5e81175763fce",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -71,7 +73,7 @@
             }
           },
           {
-            "id": "6bbb3dd56d6ba6f7",
+            "id": "10ee02b992720d61",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -95,7 +97,7 @@
             }
           },
           {
-            "id": "63a8195e229de015",
+            "id": "0b1ad858a53d8e01",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -118,7 +120,8 @@
               "title": "4th week (25th - 1st)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,6 +133,7 @@
       {
         "id": "dc4df3b7992fca1e",
         "type": "tabs",
+        "dimension": 58.54545454545455,
         "children": [
           {
             "id": "75253c60a2865d4b",
@@ -144,18 +148,11 @@
             }
           }
         ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-  },
-  "right": {
-    "id": "dfa83518ec05b5d2",
-    "type": "split",
-    "children": [
+      },
       {
-        "id": "43148b3c45cd0f9c",
+        "id": "f26c70cf27f1ea41",
         "type": "tabs",
+        "dimension": 41.45454545454545,
         "children": [
           {
             "id": "4d5d9cd17e10e8be",
@@ -171,7 +168,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288
+  },
+  "right": {
+    "id": "dfa83518ec05b5d2",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 289,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,12 +188,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3e0701b51a0976b3",
+  "active": "4d5d9cd17e10e8be",
   "lastOpenFiles": [
-    "News title.md",
     "00. Dashboard/🏠 Home.md",
     "01. Weekly planner/2024/November/1st week (4th - 10th).md",
+    "01. Weekly planner/2024/November/4th week (25th - 1st).md",
+    "01. Weekly planner/2024/November/3rd week (18th - 24th).md",
     "01. Weekly planner/2024/November/2nd week (11th - 17th).md",
+    "News title.md",
     "Blog/Projects/1. Regional Education System/Regional Education System.md",
     "Blog/Projects/1. Regional Education System/1.png",
     "Blog/Projects/1. Regional Education System",
@@ -205,8 +212,6 @@
     "Blog/Uses",
     "Blog/Posts",
     "Blog",
-    "01. Weekly planner/2024/November/3rd week (18th - 24th).md",
-    "01. Weekly planner/2024/November/4th week (25th - 1st).md",
     "02. Front-end development/Things to learn.md",
     "02. Weekly planner/2024/November/Notes/Setup obsidian.md",
     "02. Weekly planner/2024/November/4th - 10th.md",

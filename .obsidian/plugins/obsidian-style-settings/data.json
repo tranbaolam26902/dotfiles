@@ -129,7 +129,7 @@
   "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-lavender",
   "anuppuccin-theme-settings@@h1-font": "Avenir",
   "anuppuccin-theme-settings@@h2-font": "Avenir",
-  "anuppuccin-theme-settings@@anp-hide-external-link-icon": true,
+  "anuppuccin-theme-settings@@anp-hide-external-link-icon": false,
   "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
   "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-full-rainbow-color-toggle",
   "anuppuccin-theme-settings@@cards-padding": "1.2em"
