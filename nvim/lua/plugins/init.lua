@@ -24,6 +24,7 @@ return {
                 'javascript',
                 'typescript',
                 'tsx',
+                'prisma',
             },
         },
     },
