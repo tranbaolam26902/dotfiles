@@ -1,2 +1,2 @@
-require 'visual-whitespace' -- visual whitespace
-vim.cmd 'TailwindSortOnSaveToggle' -- sort tailwind classes on save
+require 'visual-whitespace' -- Highlights visual whitespace in Visual mode
+vim.cmd 'TailwindSortOnSaveToggle' -- sorts Tailwind classes on save

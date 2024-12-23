@@ -14,7 +14,7 @@ for _, lsp in ipairs(servers) do
     }
 end
 
--- disable warning: unkown at rule @tailwind
+-- disables the warning: unkown at rule @tailwind
 lspconfig.cssls.setup {
     on_attach = nvlsp.on_attach,
     capabilities = nvlsp.capabilities,

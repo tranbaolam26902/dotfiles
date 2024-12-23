@@ -1,7 +1,7 @@
 return {
     {
         'stevearc/conform.nvim',
-        event = 'BufWritePre', -- format on save
+        event = 'BufWritePre', -- enables format on save
         opts = require 'configs.conform',
     },
 
