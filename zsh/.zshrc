@@ -15,9 +15,11 @@ export CLICOLOR=1
 export LSCOLOR=gxfxcxdxbxegedabagacad
 
 # aliases
+## directories
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
+## git
 alias gs='git status'
 alias gd='git diff'
 alias gaa='git add .'
@@ -34,7 +36,7 @@ alias gpl='git pull'
 alias gplm='git pull origin master'
 alias gplc='git pull origin campbells'
 alias gra='git restore .'
-
+## dotnet
 alias dnb='dotnet build'
 alias dndb='dotnet-ef Database Update'
 function dnr() {
@@ -43,6 +45,7 @@ function dnr() {
             dotnet run --urls=https://localhost:"$1"
         fi
 }
+## obsidian
 alias sync_obsidian='cp -R ~/Documents/"Obsidian Vault"/campbells/.obsidian ~/.config/'
 
 # load variables
@@ -51,3 +54,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 export DOTNET_ROOT=~/dotnet
 export PATH=$PATH:~/dotnet
+
+# plugins
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
