@@ -16,17 +16,29 @@ export LSCOLOR=gxfxcxdxbxegedabagacad
 
 # aliases
 ## directories
-alias ll='ls -l'
-alias la='ls -a'
-alias lla='ls -la'
+alias ll='ls -l --color=always | grep -v ".DS_Store"'
+alias la='ls -a --color=always | grep -v ".DS_Store"'
+alias lla='ls -la --color=always | grep -v ".DS_Store"'
 ## git
 alias gs='git status'
 alias gd='git diff'
 alias gaa='git add .'
+function ga() {
+    if [ -n "$1" ]
+    then
+        git add $1
+    fi
+}
 function gcm() {
     if [ -n "$1" ]
     then
         git commit -m "$1"
+    fi
+}
+function gr() {
+    if [ -n "$1" ]
+    then
+        git restore $1
     fi
 }
 alias gp='git push'
