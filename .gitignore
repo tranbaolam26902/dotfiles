@@ -6,3 +6,4 @@ thefuck
 .DS_Store
 .zcompdump
 .zsh_history
+tmux/plugins
