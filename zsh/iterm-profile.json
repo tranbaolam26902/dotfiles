@@ -185,7 +185,7 @@
     "Alpha Component": 1,
     "Green Component": 0.88627450980392153
   },
-  "Jobs to Ignore": ["rlogin", "ssh", "slogin", "telnet"],
+  "Jobs to Ignore": [],
   "Badge Color (Dark)": {
     "Red Component": 0.92929404973983765,
     "Color Space": "P3",
@@ -236,6 +236,7 @@
     "Green Component": 0.84313725490196079
   },
   "Flashing Bell": false,
+  "Show Status Bar": false,
   "Use Italic Font": true,
   "Ansi 13 Color (Dark)": {
     "Green Component": "0.4980392",
@@ -307,7 +308,7 @@
   },
   "Name": "Campbells",
   "Blink Allowed": false,
-  "Transparency": 0.24448102678571426,
+  "Transparency": 0.23976004464285713,
   "Horizontal Spacing": 1,
   "Thin Strokes": 4,
   "Cursor Color (Dark)": {
@@ -435,6 +436,7 @@
     "Green Component": 1
   },
   "Background Image Location": "",
+  "Allow Title Setting": false,
   "Ansi 1 Color (Light)": {
     "Green Component": "0",
     "Blue Component": "0",
@@ -454,7 +456,7 @@
     "Alpha Component": 1,
     "Green Component": 0.8901960784313725
   },
-  "Normal Font": "FiraCodeNF-Reg 18",
+  "Normal Font": "FiraCodeNF-Reg 19",
   "Unlimited Scrollback": false,
   "Ansi 12 Color (Light)": {
     "Green Component": "0.6235294",
@@ -543,4 +545,3 @@
     "Red Component": "0"
   }
 }
-
