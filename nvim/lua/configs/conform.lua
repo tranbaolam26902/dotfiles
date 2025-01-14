@@ -6,7 +6,7 @@ local options = {
         css = { 'prettierd' },
         javascript = { 'prettierd' },
         javascriptreact = { 'prettierd' },
-        typescript = { 'prettier' },
+        typescript = { 'prettierd' },
         typescriptreact = { 'prettierd' },
     },
 
