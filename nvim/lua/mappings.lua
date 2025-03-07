@@ -9,5 +9,4 @@ map('n', 'sv', ':vsplit<CR>', opts) -- splits the window vertically
 map('n', '<leader>X', ':%bd<CR>', opts) -- deletes all buffers
 map('n', '<leader>x', ':bd<CR>', opts) -- delete current buffer
 map('n', '<leader>cn', ':NvimTreeCollapse<CR>', opts) -- collapses NvimTree
-map('n', '<leader>cc', '[m', opts) -- go to current context
 map('n', '<leader>gm', ':Gitsigns blame_line<CR>', opts) -- shows git commit message
