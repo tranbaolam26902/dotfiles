@@ -30,13 +30,6 @@ return {
     },
 
     {
-        'nvim-treesitter/nvim-treesitter-context',
-        config = function()
-            require('treesitter-context').setup {}
-        end,
-    },
-
-    {
         'windwp/nvim-ts-autotag',
         dependencies = 'nvim-treesitter/nvim-treesitter',
         config = function()
@@ -90,14 +83,6 @@ return {
                     delay = 0,
                 },
             }
-        end,
-    },
-
-    {
-        'andymass/vim-matchup',
-        event = 'VeryLazy',
-        config = function()
-            vim.g.matchup_matchparen_enabled = 1
         end,
     },
 }

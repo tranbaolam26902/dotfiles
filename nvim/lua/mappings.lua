@@ -12,7 +12,4 @@ map('n', 'sv', ':vsplit<CR>', extend_opts { desc = 'Vertical split' }) -- splits
 map('n', '<leader>X', ':%bd<CR>', extend_opts { desc = 'Delete all buffers' }) -- deletes all buffers
 map('n', '<leader>x', ':bd<CR>', extend_opts { desc = 'Delete current buffer' }) -- delete current buffer
 map('n', '<leader>cn', ':NvimTreeCollapse<CR>', extend_opts { desc = 'Collapse NvimTree' }) -- collapses NvimTree
-vim.keymap.set('n', '<leader>cc', function()
-    require('treesitter-context').go_to_context(vim.v.count1)
-end, { silent = true, desc = 'Jump to Context' }) -- jumps to context (upwards)
 map('n', '<leader>gm', ':Gitsigns blame_line<CR>', extend_opts { desc = 'Show commit message' }) -- shows git commit message
