@@ -59,6 +59,23 @@ function dnr() {
 }
 ## obsidian
 alias sync_obsidian='cp -R ~/Documents/"Obsidian Vault"/campbells/.obsidian ~/.config/'
+## automation scripts
+alias dotfiles="~/.config/bash/dotfiles_workspaces.sh"
+dls() {
+    SESSION_NAME=$1
+    WINDOW_NAME=$2
+    PROJECT_SUBDIR=$3
+
+    BASE_DIR="$HOME/Workspaces/dls-projects"
+    PROJECT_DIR="$BASE_DIR/$PROJECT_SUBDIR"
+
+    if [ ! -d "$PROJECT_DIR" ]; then
+        echo "⚠️ ERROR: Project directory '$PROJECT_DIR' does not exist!"
+        return 1
+    fi
+
+    bash ~/.config/bash/dls_workspaces.sh "$SESSION_NAME" "$WINDOW_NAME" "$PROJECT_DIR"
+}
 
 # load variables
 export NVM_DIR="$HOME/.nvm"
