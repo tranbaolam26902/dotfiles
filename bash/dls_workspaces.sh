@@ -27,12 +27,14 @@ PANE_COUNT=$(tmux list-panes -t "$SESSION_NAME:$WINDOW_NAME" | wc -l)
 
 if [ "$PANE_COUNT" -eq 1 ]; then
     tmux split-window -h -c "$PROJECT_DIR"
-    tmux select-pane -t 1
     tmux split-window -v -c "$PROJECT_DIR"
     tmux resize-pane -D 5
-    tmux send-keys -t 2 "yarn dev" C-m
-    tmux send-keys -t 1 "nvim" C-m
+
+    tmux select-pane -t 3
+    tmux send-keys -t 3 "yarn dev" C-m
+
     tmux select-pane -t 1
+    tmux send-keys -t 1 "nvim" C-m
     tmux resize-pane -Z
 fi
 
