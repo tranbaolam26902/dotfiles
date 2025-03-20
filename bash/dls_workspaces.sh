@@ -29,6 +29,7 @@ if [ "$PANE_COUNT" -eq 1 ]; then
     tmux split-window -h -c "$PROJECT_DIR"
     tmux split-window -v -c "$PROJECT_DIR"
     tmux resize-pane -D 5
+    tmux resize-pane -R 5
 
     tmux select-pane -t 3
     tmux send-keys -t 3 "yarn dev" C-m
