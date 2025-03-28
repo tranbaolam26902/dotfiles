@@ -1,0 +1,15 @@
+font-family = FiraCode Nerd Font
+font-size = 24
+
+background-opacity = 0.8
+background-blur = 24
+
+theme = catppuccin-mocha
+
+mouse-hide-while-typing = true
+
+working-directory = /Users/campbells/Workspaces
+
+window-save-state = always
+
+quit-after-last-window-closed = true
