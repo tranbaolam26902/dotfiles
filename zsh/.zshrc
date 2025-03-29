@@ -8,7 +8,6 @@ source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
 
 # load packages
 eval "$(/opt/homebrew/bin/brew shellenv)" # homebrew
-eval "$(thefuck --alias)" # thefuck
 
 # highlight directories
 export CLICOLOR=1
@@ -83,8 +82,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 export DOTNET_ROOT=~/dotnet
 export PATH=$PATH:~/dotnet
-# cargo for Rust
-. "$HOME/.cargo/env"
 
 # plugins
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
