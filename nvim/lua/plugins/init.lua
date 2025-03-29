@@ -7,34 +7,18 @@ return {
 
     {
         'neovim/nvim-lspconfig',
-        config = function()
-            require 'configs.lspconfig'
-        end,
+        config = require 'configs.lspconfig',
     },
 
     {
         'nvim-treesitter/nvim-treesitter',
-        opts = {
-            ensure_installed = {
-                'lua',
-                'vim',
-                'vimdoc',
-                'html',
-                'css',
-                'javascript',
-                'typescript',
-                'tsx',
-                'prisma',
-            },
-        },
+        opts = require 'configs.nvim-treesitter',
     },
 
     {
         'windwp/nvim-ts-autotag',
         dependencies = 'nvim-treesitter/nvim-treesitter',
-        config = function()
-            require('nvim-ts-autotag').setup {}
-        end,
+        config = require 'configs.nvim-ts-autotag',
         lazy = false,
         event = { 'BufReadPre', 'BufNewFile' },
     },
@@ -53,35 +37,17 @@ return {
 
     {
         'williamboman/mason.nvim',
-        opts = {
-            ui = {
-                border = 'rounded',
-            },
-        },
-    },
-
-    {
-        'mcauley-penney/visual-whitespace.nvim',
-        config = true,
+        opts = require 'configs.mason',
     },
 
     {
         'lewis6991/gitsigns.nvim',
-        config = function()
-            require('gitsigns').setup {
-                current_line_blame = true,
-                current_line_blame_opts = {
-                    delay = 0,
-                },
-            }
-        end,
+        config = require 'configs.gitsigns',
     },
 
     {
         'luckasRanarison/tailwind-tools.nvim',
         lazy = false,
-        config = function()
-            require 'configs.tailwind-tools'
-        end,
+        config = require 'configs.tailwind-tools',
     },
 }
