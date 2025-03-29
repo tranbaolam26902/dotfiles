@@ -76,4 +76,12 @@ return {
             }
         end,
     },
+
+    {
+        'luckasRanarison/tailwind-tools.nvim',
+        lazy = false,
+        config = function()
+            require 'configs.tailwind-tools'
+        end,
+    },
 }
