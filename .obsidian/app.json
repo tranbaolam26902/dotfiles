@@ -4,11 +4,11 @@
   "trashOption": "local",
   "newFileLocation": "root",
   "livePreview": false,
-  "showRibbon": false,
   "showInlineTitle": true,
   "readableLineLength": true,
   "strictLineBreaks": false,
   "showLineNumber": true,
   "defaultViewMode": "source",
-  "newFileFolderPath": "/"
+  "newFileFolderPath": "/",
+  "alwaysUpdateLinks": true
 }

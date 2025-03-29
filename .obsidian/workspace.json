@@ -4,40 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "5caaba27e9080bd9",
+        "id": "b77eabeeed1d4c3a",
         "type": "tabs",
         "children": [
           {
-            "id": "b998b55060a6ade3",
+            "id": "b60a7c0c3f086ffc",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "00. Dashboard/🏠 Home.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": true
+                "source": true,
+                "backlinks": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "🏠 Home"
             }
           },
           {
-            "id": "a455d038ce97ce85",
+            "id": "89fd7e5d8853fc0e",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "01. Weekly planner/2024/November/1st week (4th - 10th).md",
+                "file": "01. Weekly planner/2025/March/4th week (24th - 30th).md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
                     false,
-                    false,
-                    false,
-                    false,
+                    true,
+                    true,
+                    true,
+                    true,
                     false,
                     false,
                     false
@@ -45,79 +44,22 @@
                 }
               },
               "icon": "lucide-trello",
-              "title": "1st week (4th - 10th)"
+              "title": "4th week (24th - 30th)"
             }
           },
           {
-            "id": "0ce5e81175763fce",
+            "id": "7bde5a0cc42c3982",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "01. Weekly planner/2024/November/2nd week (11th - 17th).md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "02.Software development/04. Full-stack development/Libraries & Frameworks/Tauri.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
               },
-              "icon": "lucide-trello",
-              "title": "2nd week (11th - 17th)"
-            }
-          },
-          {
-            "id": "10ee02b992720d61",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "01. Weekly planner/2024/November/3rd week (18th - 24th).md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "3rd week (18th - 24th)"
-            }
-          },
-          {
-            "id": "0b1ad858a53d8e01",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "01. Weekly planner/2024/November/4th week (25th - 1st).md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "4th week (25th - 1st)"
+              "icon": "lucide-file",
+              "title": "Tauri"
             }
           }
         ],
@@ -133,7 +75,6 @@
       {
         "id": "dc4df3b7992fca1e",
         "type": "tabs",
-        "dimension": 58.54545454545455,
         "children": [
           {
             "id": "75253c60a2865d4b",
@@ -141,21 +82,30 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           }
         ]
-      },
+      }
+    ],
+    "direction": "horizontal",
+    "width": 288,
+    "collapsed": true
+  },
+  "right": {
+    "id": "dfa83518ec05b5d2",
+    "type": "split",
+    "children": [
       {
-        "id": "f26c70cf27f1ea41",
+        "id": "59efe0e703a69626",
         "type": "tabs",
-        "dimension": 41.45454545454545,
         "children": [
           {
-            "id": "4d5d9cd17e10e8be",
+            "id": "44cfdc3908f4c727",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -167,13 +117,6 @@
         ]
       }
     ],
-    "direction": "horizontal",
-    "width": 288
-  },
-  "right": {
-    "id": "dfa83518ec05b5d2",
-    "type": "split",
-    "children": [],
     "direction": "horizontal",
     "width": 289,
     "collapsed": true
@@ -188,54 +131,55 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "4d5d9cd17e10e8be",
+  "active": "89fd7e5d8853fc0e",
   "lastOpenFiles": [
     "00. Dashboard/🏠 Home.md",
-    "01. Weekly planner/2024/November/1st week (4th - 10th).md",
-    "01. Weekly planner/2024/November/4th week (25th - 1st).md",
-    "01. Weekly planner/2024/November/3rd week (18th - 24th).md",
-    "01. Weekly planner/2024/November/2nd week (11th - 17th).md",
-    "News title.md",
-    "Blog/Projects/1. Regional Education System/Regional Education System.md",
+    "01. Weekly planner/2025/March/4th week (24th - 30th).md",
+    "02.Software development/04. Full-stack development/Libraries & Frameworks/Tauri.md",
+    "02.Software development/04. Full-stack development/Turbo Repo.md",
+    "Preparation.md",
+    "Apply.md",
+    "Pasted image 20250324165127.png",
+    "Pasted image 20250312113738.png",
+    "02.Software development/03. Back-end development/Languages/Rust.md",
+    "01. Weekly planner/2025/March/3rd week (17th - 23rd).md",
+    "01. Weekly planner/2025/March/2nd week (10th - 16th).md",
+    "04. Trading/Terminologies.md",
+    "02.Software development/02. Front-end development/Other/Things to learn.md",
+    "02.Software development/05. Design patterns/Overview.md",
+    "02.Software development/05. Design patterns",
+    "02.Software development/01. Projects/Window Management for MacOS.md",
+    "02.Software development/04. Full-stack development/Libraries & Frameworks",
+    "04. Trading",
+    "03. Mr Beat/FL Studio.md",
+    "01. Weekly planner/2025/March/1st week (3rd - 9th).md",
+    "03. Mr Beat/Bủh bủh lmao.md",
+    "03. Mr Beat",
+    "01. Weekly planner/2025/February/4th week (24th - 2nd).md",
+    "01. Weekly planner/2025/February/1st week (3rd - 9th).md",
+    "01. Weekly planner/2025/February/2nd week (10th - 16th).md",
+    "01. Weekly planner/2025/February/3rd week (17th - 23rd).md",
+    "01. Weekly planner/2025/March",
+    "02.Software development/02. Front-end development/Libraries & Frameworks/React.md",
+    "02.Software development/02. Front-end development/Other/Tips & Tricks.md",
+    "02.Software development/02. Front-end development/Other/Notes.md",
+    "02.Software development/02. Front-end development/Libraries & Frameworks/Next.js.md",
+    "02.Software development/02. Front-end development/Libraries & Frameworks/Angular.md",
+    "01. Weekly planner/2025/February/Untitled.canvas",
+    "01. Weekly planner/2025/February/Notes",
+    "01. Weekly planner/2025/February",
+    "01. Weekly planner/2025/January/Notes",
+    "01. Weekly planner/2025/January",
+    "01. Weekly planner/2025",
+    "Pasted image 20241129132353.png",
     "Blog/Projects/1. Regional Education System/1.png",
-    "Blog/Projects/1. Regional Education System",
     "Pasted image 20241105212531.png",
     "Blog/Projects/1. Regional Education System/8.png",
     "Blog/Projects/1. Regional Education System/7.png",
     "Blog/Projects/1. Regional Education System/6.png",
     "Blog/Projects/1. Regional Education System/5.png",
     "Blog/Projects/1. Regional Education System/4.png",
-    "Blog/Projects/1. Regional Education System/3.png",
-    "Blog/Projects/1. Regional Education System/2.png",
-    "Blog/Posts/My NeoVim setup in 2024.md",
-    "Blog/Projects",
-    "Blog/Uses",
-    "Blog/Posts",
-    "Blog",
-    "02. Front-end development/Things to learn.md",
-    "02. Weekly planner/2024/November/Notes/Setup obsidian.md",
-    "02. Weekly planner/2024/November/4th - 10th.md",
-    "21-11-2024.md",
-    "03. Daily Notes",
-    "02. Weekly planner/2024/November/11th - 17th.md",
-    "dfgsdfgdfsg.md",
-    "02. Weekly planner/2024/November/dfgsdfgdfsg.md",
-    "01. Weekly planner/2024/November/Notes",
-    "Untitled Kanban.md",
     "02. Weekly planner/2024/November/Untitled.canvas",
-    "01. Weekly planner/2024/November",
-    "01. Weekly planner/2024",
-    "01. Weekly planner",
-    "trying obsidian.md",
-    "Entertainment/Movies.md",
-    "02. Front-end development/Tips & Tricks.md",
-    "02. Front-end development/Libraries & Frameworks/Next.js.md",
-    "02. Front-end development/Languages/TypeScript.md",
-    "02. Front-end development/Languages/JavaScript.md",
-    "Untitled.canvas",
-    "Front-end development/Languages/Index.md",
-    "02. Front-end development/Notes.md",
-    "02. Front-end development/Libraries & Frameworks/Angular.md",
-    "02. Front-end development/Libraries & Frameworks/React.md"
+    "Untitled.canvas"
   ]
 }
