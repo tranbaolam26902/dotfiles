@@ -69,7 +69,6 @@ M.mason = {
         'lua-language-server',
         'prettier',
         'prettierd',
-        'prisma-language-server',
         'stylua',
         'tailwindcss-language-server',
         'typescript-language-server',
