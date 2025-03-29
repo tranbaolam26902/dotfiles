@@ -1,5 +1,9 @@
 require 'nvchad.options'
 
+vim.o.autoread = true
+vim.api.nvim_create_autocmd({ 'BufEnter', 'CursorHold', 'FocusGained' }, {
+    command = 'checktime',
+}) -- auto refresh
 vim.o.cursorlineopt = 'both' -- cursorline
 vim.opt.relativenumber = true
 vim.opt.scrolloff = 10 -- scroll offset
