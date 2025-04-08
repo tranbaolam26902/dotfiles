@@ -1,4 +1,6 @@
 return function()
+    vim.lsp.handlers['textDocument/signatureHelp'] = nil
+
     require('nvchad.configs.lspconfig').defaults()
 
     local lspconfig = require 'lspconfig'
