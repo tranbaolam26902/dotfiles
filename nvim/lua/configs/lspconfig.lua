@@ -5,7 +5,7 @@ return function()
 
     local lspconfig = require 'lspconfig'
 
-    local servers = { 'html', 'ts_ls', 'eslint', 'tailwindcss', 'prismals', 'rust_analyzer' }
+    local servers = { 'html', 'ts_ls', 'eslint', 'tailwindcss', 'prismals' }
     local nvlsp = require 'nvchad.configs.lspconfig'
 
     -- lsps with default config
