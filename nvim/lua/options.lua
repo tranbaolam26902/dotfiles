@@ -11,8 +11,8 @@ vim.opt.ignorecase = true -- ignores case in search patterns
 vim.opt.inccommand = 'split' -- previews changes before replace
 vim.opt.wrap = true
 vim.opt.breakindent = true -- indents wrapped lines
-vim.opt.shiftwidth = 4
-vim.opt.tabstop = 4
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
 vim.opt.smartindent = true
 vim.opt.wildignore:append { '*/node_modules/*' } -- ignores node_modules folder
 vim.opt.fillchars = { fold = ' ' }
