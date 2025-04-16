@@ -8,6 +8,6 @@ return {
         'javascript',
         'typescript',
         'tsx',
-        'prisma',
+        'vue',
     },
 }
