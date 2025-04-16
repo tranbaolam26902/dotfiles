@@ -48,6 +48,7 @@ return {
     {
         'luckasRanarison/tailwind-tools.nvim',
         lazy = false,
-        config = require 'configs.tailwind-tools',
+        config = require('configs.tailwind-tools').config,
+        cond = require('configs.tailwind-tools').cond,
     },
 }
