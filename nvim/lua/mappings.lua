@@ -8,6 +8,7 @@ end
 
 map('n', ';', ':', { desc = 'CMD enter command mode' })
 map('n', '<leader>lf', ':lua vim.diagnostic.open_float()<CR>', extend_opts { desc = 'Show diagnostic' }) -- shows diagnostic
+map('n', '<leader>ca', vim.lsp.buf.code_action, extend_opts { desc = 'LSP Code Action' }) -- triggers LSP code action
 map('n', '<leader>ft', ':TailwindSort<CR>', extend_opts { desc = 'Shorts all Tailwind classes' }) -- shorts all Tailwind classes in current buffer
 map('n', 'sv', ':vsplit<CR>', extend_opts { desc = 'Vertical split' }) -- splits the window vertically
 map('n', '<leader>X', ':%bd<CR>', extend_opts { desc = 'Delete all buffers' }) -- deletes all buffers

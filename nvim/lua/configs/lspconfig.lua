@@ -5,7 +5,7 @@ return function()
 
     local lspconfig = require 'lspconfig'
 
-    local servers = { 'html', 'eslint', 'tailwindcss' }
+    local servers = { 'html', 'tailwindcss' }
     local nvlsp = require 'nvchad.configs.lspconfig'
 
     -- lsps with default config
@@ -33,6 +33,26 @@ return function()
                 },
             },
         },
+    }
+
+    lspconfig.eslint.setup {
+        on_attach = function(client, bufnr)
+            nvlsp.on_attach(client, bufnr)
+
+            -- auto-fix on save
+            vim.api.nvim_create_autocmd('BufWritePre', {
+                buffer = bufnr,
+                command = 'EslintFixAll',
+            })
+
+            -- add auto-fix to default format keybind
+            vim.keymap.set('n', '<leader>fm', function()
+                vim.cmd 'EslintFixAll'
+                vim.lsp.buf.format { async = true }
+            end, { buffer = bufnr, desc = 'Eslint Fix + Format' })
+        end,
+        on_init = nvlsp.on_init,
+        capabilities = nvlsp.capabilities,
     }
 
     local mason_registry = require 'mason-registry'
