@@ -56,8 +56,6 @@ function dnr() {
             dotnet run --urls=https://localhost:"$1"
         fi
 }
-## obsidian
-alias sync_obsidian='cp -R ~/Documents/"Obsidian Vault"/campbells/.obsidian ~/.config/'
 ## automation scripts
 alias dotfiles="~/.config/bash/dotfiles_workspaces.sh"
 dls() {
