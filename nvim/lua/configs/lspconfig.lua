@@ -46,10 +46,10 @@ return function()
             })
 
             -- add auto-fix to default format keybind
-            vim.keymap.set('n', '<leader>fm', function()
-                vim.cmd 'EslintFixAll'
-                vim.lsp.buf.format { async = true }
-            end, { buffer = bufnr, desc = 'Eslint Fix + Format' })
+            -- vim.keymap.set('n', '<leader>fm', function()
+            --     vim.cmd 'EslintFixAll'
+            --     vim.lsp.buf.format { async = true }
+            -- end, { buffer = bufnr, desc = 'Eslint Fix + Format' })
         end,
         on_init = nvlsp.on_init,
         capabilities = nvlsp.capabilities,
