@@ -47,15 +47,11 @@ alias gpl='git pull'
 alias gplm='git pull origin master'
 alias gplc='git pull origin campbells'
 alias gra='git restore .'
-## dotnet
-alias dnb='dotnet build'
-alias dndb='dotnet-ef Database Update'
-function dnr() {
-    if [ -n "$1" ]
-        then
-            dotnet run --urls=https://localhost:"$1"
-        fi
-}
+## yarn
+alias yd='yarn dev'
+alias yl='yarn lint'
+alias yb='yarn build'
+alias ylb='yarn lint && yarn build'
 ## automation scripts
 alias dotfiles="~/.config/bash/dotfiles_workspaces.sh"
 dls() {
