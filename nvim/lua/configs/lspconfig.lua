@@ -5,7 +5,7 @@ return function()
 
     local lspconfig = require 'lspconfig'
 
-    local servers = { 'html', 'tailwindcss' }
+    local servers = { 'html', 'tailwindcss', 'ts_ls' }
     local nvlsp = require 'nvchad.configs.lspconfig'
 
     -- lsps with default config
@@ -54,26 +54,4 @@ return function()
         on_init = nvlsp.on_init,
         capabilities = nvlsp.capabilities,
     }
-
-    local mason_registry = require 'mason-registry'
-    local vue_language_server_path = mason_registry.get_package('vue-language-server'):get_install_path()
-        .. '/node_modules/@vue/language-server'
-
-    lspconfig.ts_ls.setup {
-        on_attach = nvlsp.on_attach,
-        on_init = nvlsp.on_init,
-        capabilities = nvlsp.capabilities,
-        init_options = {
-            plugins = {
-                {
-                    name = '@vue/typescript-plugin',
-                    location = vue_language_server_path,
-                    languages = { 'vue' },
-                },
-            },
-        },
-        filetypes = { 'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue' },
-    }
-
-    lspconfig.volar.setup {}
 end
