@@ -1,8 +1,8 @@
 font-family = FiraCode Nerd Font
 font-size = 24
 
-background-opacity = 0.64
-background-blur = 24
+background-opacity = 0.8
+background-blur = 8
 
 theme = catppuccin-mocha
 
