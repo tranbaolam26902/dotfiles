@@ -47,11 +47,17 @@ alias gpl='git pull'
 alias gplm='git pull origin master'
 alias gplc='git pull origin campbells'
 alias gra='git restore .'
+alias gpab='git fetch --all --prune && for b in $(git branch -r | grep -v "\->"); do git branch --track "${b#origin/}" "$b" 2>/dev/null || true; done && git fetch --all'
 ## yarn
 alias yd='yarn dev'
 alias yl='yarn lint'
+alias ylf='yarn lint --fix'
 alias yb='yarn build'
 alias ylb='yarn lint && yarn build'
+## docker
+alias dcu='docker compose up -d'
+alias dcd='docker compose down'
+alias dcub='docker compose up -d --build'
 ## automation scripts
 alias dotfiles="~/.config/bash/dotfiles_workspaces.sh"
 dls() {
