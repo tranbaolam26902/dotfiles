@@ -18,34 +18,23 @@ export LSCOLOR=gxfxcxdxbxegedabagacad
 alias ll='ls -l --color=always | grep -v ".DS_Store"'
 alias la='ls -a --color=always | grep -v ".DS_Store"'
 alias lla='ls -la --color=always | grep -v ".DS_Store"'
+alias cd='z'
 ## git
 alias gs='git status'
 alias gd='git diff'
 alias gaa='git add .'
-function ga() {
-    if [ -n "$1" ]
-    then
-        git add $1
-    fi
-}
-function gcm() {
-    if [ -n "$1" ]
-    then
-        git commit -m "$1"
-    fi
-}
-function gr() {
-    if [ -n "$1" ]
-    then
-        git restore $1
-    fi
-}
+alias ga='git add'
+alias gcm='git commit -m'
+alias gr='git restore'
+alias gl='git log'
+alias gll='git log --oneline'
+alias gf='git fetch'
+alias gb='git branch'
+alias gc='git checkout'
+alias gcb='git checkout -b'
+alias gbd='git branch -d'
 alias gp='git push'
-alias gpm='git push origin master'
-alias gpc='git push origin campbells'
 alias gpl='git pull'
-alias gplm='git pull origin master'
-alias gplc='git pull origin campbells'
 alias gra='git restore .'
 alias gpab='git fetch --all --prune && for b in $(git branch -r | grep -v "\->"); do git branch --track "${b#origin/}" "$b" 2>/dev/null || true; done && git fetch --all'
 ## yarn
@@ -80,6 +69,7 @@ dls() {
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+eval "$(zoxide init zsh)" # This load zoxide
 export DOTNET_ROOT=~/dotnet
 export PATH=$PATH:~/dotnet
 
