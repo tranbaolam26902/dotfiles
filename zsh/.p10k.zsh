@@ -36,8 +36,8 @@
     dir                     # current directory
     vcs                     # git status
     # node_version          # node.js version
-    dotnet_version          # .NET version (https://dotnet.microsoft.com)
-    status                  # exit code of the last command
+    # dotnet_version          # .NET version (https://dotnet.microsoft.com)
+    # status                  # exit code of the last command
     # =========================[ Line #2 ]=========================
     newline                 # \n
     # prompt_char           # prompt symbol
