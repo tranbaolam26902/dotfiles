@@ -2,7 +2,7 @@ font-family = FiraCode Nerd Font
 font-size = 24
 
 background-opacity = 0.8
-background-blur = 8
+background-blur = 24
 
 theme = catppuccin-mocha
 
@@ -17,5 +17,9 @@ quit-after-last-window-closed = true
 macos-titlebar-style = hidden
 
 window-padding-balance = true
+
+window-padding-x = 8
+
+window-padding-y = 8
 
 copy-on-select = clipboard
